@@ -1,0 +1,12 @@
+{
+  "name": "operin-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend REST API Oper.in (Express.js + node:sqlite, kompatibel dengan Bun dan Node 22.13+/24)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "bun src/server.js",
+    "dev": "bun --watch src/server.js",
+    "test": "bun test --coverage --coverage-reporter=lcov --coverage-reporter=text"
+  }
+}
